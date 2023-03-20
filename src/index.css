@@ -1,0 +1,78 @@
+
+
+@font-face {
+font-family: Imported;
+src: url(./Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf);
+}
+@font-face {
+font-family: italic;
+src: url(./Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
+@font-face {
+font-family: regular;
+src: url(./Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+font-family: Import;
+src: url(./Raleway/static/Raleway-MediumItalic.ttf);
+}
+@font-face {
+font-family: bold;
+src: url(./Raleway/static/Raleway-BoldItalic.ttf);
+}
+@font-face {
+font-family: thin;
+src: url(./Raleway/static/Raleway-Thin.ttf);
+}
+@font-face {
+font-family: light;
+src: url(./Raleway/static/Raleway-ExtraLightItalic.ttf);
+}
+
+.Announcement {
+  font-family: Import;
+}
+.stolengirlclub {
+  font-family: italic;
+}
+.short-massage {
+  font-family: light;
+}
+.logo h1{
+  font-size: 20px;
+  font-family: regular;
+}
+.brends h1{
+  font-family: regular;
+}
+.product-information {
+  font-family: thin;
+  
+}
+
+.cross {
+  font-family: bold;
+}
+.Beastie{
+  font-family: Import;
+}
+.brains{
+  font-family: regular;
+}
+body {
+  margin: 0;
+  
+}
+
+
+
+.modalButton {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  padding: 12px 24px;
+}
+
+

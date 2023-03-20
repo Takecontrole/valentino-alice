@@ -1,0 +1,40 @@
+.dashboard-product-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.productList{
+    flex: 4;
+}
+
+.productListItem{
+    display: flex;
+    align-items: center;
+}
+
+.productListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+.productListEdit{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e4396;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.productListDelete{
+   border: none;
+   border-radius: 5px;
+    width: 100px;
+    background-color: #832f2c;
+    color: #e0e0e0;
+    cursor: pointer;
+}

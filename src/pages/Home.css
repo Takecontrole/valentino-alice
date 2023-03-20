@@ -1,0 +1,322 @@
+.hamburger {
+        width: 32px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+}
+     .hamburger span {
+          width: 100%;
+          height: 3px;
+          background-color: #15023a;
+          transform-origin: left;
+          transition: all 2s ease;
+        }
+       
+   .active-line1 {
+      margin-left: 5px;
+          background-color: #15023a;
+          transform: rotate(45deg);
+        }
+     .active-line2 {
+          opacity: 0;
+        }
+    .active-line3 {
+      margin-left: 5px;
+          background-color: #15023a;
+          transform: rotate(-45deg);
+        }
+      
+
+.menu {
+  width: 100%;
+  height: 50vh;
+  background-color: #15023a;
+  position: fixed;
+  bottom: 70px;
+  left:0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+}
+
+  
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    
+}
+  .menu  li {
+      margin-bottom: 25px;
+  }
+   
+      .menu li:hover {
+        font-weight: 800;
+      }
+    
+     
+    
+  
+
+
+@keyframes taadaa {
+  0% {
+    opacity: 0;
+  }
+ 
+ 50% {
+   opacity: 0.50;
+ }
+ 
+ 
+  100% {
+   opacity: 1; 
+  }
+}
+
+
+.intro {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+.gallerycontainer{
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 480px) {
+  .intro{
+    margin-bottom: 0px;
+  }
+}
+
+
+
+.
+ 
+
+
+
+.card {
+    border: none !important;
+    width: 15rem !important;
+}
+
+
+
+
+.category-container{
+  overflow: hidden;
+  margin: 15px;
+}
+
+
+.desc {
+  margin: 20px;
+}
+.button {
+  border: 1px solid lightgray;
+  background-color: white;
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.stickymassage {
+  border:none;
+  width: 200px;
+  height: 47px;
+  background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  bottom:450px;
+  right: -85px;
+  position: fixed;
+  float:left;
+  display: flex;
+  z-index: 1;
+  rotate: 270deg;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.stickymassage button{
+  background: transparent;
+  border: none;
+  color: white;
+  width: 100%;
+}
+.stickymenu {
+  border :none;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  
+  bottom:10px;
+  
+  position: fixed;
+  float:left;
+  display: flex;
+  z-index: 1;
+  
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+  cursor: pointer;
+}
+
+
+.stickychat {
+  border :none;
+  width: 140px;
+  height: 60px;
+  background-color: #E4C1F9;
+  color: white;
+  font-weight: 400;
+  bottom:20px;
+  right: 10px;
+  position: fixed;
+  float:left;
+  display: flex;
+  z-index: 1;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  -moz-box-shadow: 0 0 6px #ccc;
+-webkit-box-shadow: 0 0 6px #ccc;
+box-shadow: 0 0 6px #ccc;
+  cursor: pointer;
+}
+/* Modal */
+.overlaylay {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.modalContainer {
+  
+  width: 65%;
+  position: fixed;
+  bottom: 300px;
+  right: 0;
+  
+  display: flex;
+  background-color: #15023a;
+  border: 1px solid black;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.modalRight {
+  width: 100%;
+}
+
+.closeBtn {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+}
+
+.modalcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  color: white;
+  
+}
+
+.btnContainer {
+  display: flex;
+  padding: 1rem 1rem;
+}
+.btnContainer button {
+  width: 100%;
+  margin: .5rem;
+  padding: 16px 0;
+  /* border: none; */
+  border: none;
+  /* color: #ffffff; */
+}
+
+.btnPrimary {
+  background-color: black;
+  color: white;
+}
+
+.btnOutline {
+  /* background-color: #a76a99; */
+  background-color: white;
+  color: black;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.style-programm {
+  padding:10px;
+  margin-top: 30px;
+  
+}
+.style-programm h2,h5 {
+  margin-bottom: 20px;
+}
+.style-programm h5 {
+  font-size: 16px;
+}
+
+.consultation-button{
+  width:150px;
+  border-radius:10px;
+  margin-left:20px;
+  color:white;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+  
+}
+.consultation-button:hover{
+  color:black;
+  background-color:red;
+  border:2px solid white;
+}
+
+
+@media screen and (max-width: 480px) {
+  .modalContainer {
+    flex-direction: column;
+    bottom: 300px;
+    
+    transform: none;
+    width: 100%;
+    height: 40vh;
+  }
+  
+
+  .heading {
+    margin: 1rem;
+  }
+}
+

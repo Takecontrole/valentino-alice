@@ -1,0 +1,19 @@
+.bg-login, .bg-signup{
+background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./images/background.jpg")
+      center;
+}
+
+.frame{
+  background: url("./images/round-frame-with-tropical-leaves-golden-element-vector-clipart-wedding-invitations_530505-386_adobe_express.png") center;
+}
+
+
+
+
+
+/* home https://res.cloudinary.com/learn-code-10/image/upload/v1653947013/yqajnhqf7usk56zkwqi5.png */
+/* https://res.cloudinary.com/learn-code-10/image/upload/v1654093280/xkia6f13xxlk5xvvb5ed.png sale */

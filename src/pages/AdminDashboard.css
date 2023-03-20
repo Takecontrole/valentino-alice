@@ -1,0 +1,15 @@
+.adminpage-container{
+    display: flex;
+    width: 100%;
+    background-color: #141b2d;
+    color: #e0e0e0;
+}
+
+.adminpage{
+    flex: 4;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}

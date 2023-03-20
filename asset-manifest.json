@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/valentino-alice/static/css/main.ba8f4323.css",
+    "main.js": "/valentino-alice/static/js/main.5715b184.js",
+    "static/js/787.44517ab3.chunk.js": "/valentino-alice/static/js/787.44517ab3.chunk.js",
+    "static/media/brends.mp4": "/valentino-alice/static/media/brends.423ae03fd37e5f0baf49.mp4",
+    "static/media/background.jpg": "/valentino-alice/static/media/background.d8a749a58211b7ad438d.jpg",
+    "static/media/round-frame-with-tropical-leaves-golden-element-vector-clipart-wedding-invitations_530505-386_adobe_express.png": "/valentino-alice/static/media/round-frame-with-tropical-leaves-golden-element-vector-clipart-wedding-invitations_530505-386_adobe_express.f989bb97f3028f4f700a.png",
+    "static/media/PlayfairDisplay-Regular.ttf": "/valentino-alice/static/media/PlayfairDisplay-Regular.27705d9c43e8c36b1abd.ttf",
+    "static/media/PlayfairDisplay-MediumItalic.ttf": "/valentino-alice/static/media/PlayfairDisplay-MediumItalic.69c89309175b14e01cc3.ttf",
+    "static/media/PlayfairDisplay-Italic.ttf": "/valentino-alice/static/media/PlayfairDisplay-Italic.e07c93f2a8635b5cef7b.ttf",
+    "static/media/Raleway-Light.ttf": "/valentino-alice/static/media/Raleway-Light.58bcdae09d89ccd8d086.ttf",
+    "static/media/Raleway-Thin.ttf": "/valentino-alice/static/media/Raleway-Thin.37b903083fc82c0bdc17.ttf",
+    "static/media/Raleway-ExtraLightItalic.ttf": "/valentino-alice/static/media/Raleway-ExtraLightItalic.73a96eeb3d29f3c6a657.ttf",
+    "static/media/Raleway-BoldItalic.ttf": "/valentino-alice/static/media/Raleway-BoldItalic.1eebed4b223d1adc34ae.ttf",
+    "static/media/Raleway-MediumItalic.ttf": "/valentino-alice/static/media/Raleway-MediumItalic.74d4db62e93d0f988ea3.ttf",
+    "static/media/signature.png": "/valentino-alice/static/media/signature.c6f63caa128d72e7db09.png",
+    "index.html": "/valentino-alice/index.html",
+    "main.ba8f4323.css.map": "/valentino-alice/static/css/main.ba8f4323.css.map",
+    "main.5715b184.js.map": "/valentino-alice/static/js/main.5715b184.js.map",
+    "787.44517ab3.chunk.js.map": "/valentino-alice/static/js/787.44517ab3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba8f4323.css",
+    "static/js/main.5715b184.js"
+  ]
+}
